@@ -11,7 +11,7 @@ def clicked(r, c):
             player = 'X'
         turn_message.config(text=f"{player} player turn")
     checkwinner()
-    
+#function to check who is the winner    
 def checkwinner():
     for i in range(3):
         if buttons[i][0]['text'] == buttons[i][1]['text'] == buttons[i][2]['text'] != '':
